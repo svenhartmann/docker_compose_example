@@ -2,8 +2,8 @@ version: '2'
 services:
   web:
     build: .
-    volumes:
-     - ./application:/application
+    #volumes:
+    # - ./application:/application
     links:
      - redis
     expose:
